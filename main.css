@@ -1,0 +1,29 @@
+body{
+	background:url('bg.png') no-repeat center center fixed;
+	-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;
+}
+#gameArea{
+	color:#F39;
+	width:100%;
+}
+#wordBox{
+    font-weight:bold;
+    text-shadow:
+       2px 2px 0 #fff,
+     -1px -1px 0 #fff,  
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+}
+#inputBox{
+	border:1px #39F solid; 
+	border-radius:3px;
+font-size:20px;
+width:80%;
+}
+@media (min-width: 1282px) { 
+    html{
+    font-size:2em;
+    } 
+#inputBox{font-size:1.3em;}
+}
